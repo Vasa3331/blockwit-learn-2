@@ -1,4 +1,4 @@
-package com.blockwit.learn1.vasa3331;
+package com.blockwit.learn2.vasa3331;
 import java.util.Scanner;
 
 public class Task22 {
