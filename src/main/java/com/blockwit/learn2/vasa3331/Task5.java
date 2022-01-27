@@ -9,7 +9,7 @@ public class Task5 {
         String b = sc.nextLine();
         String c = sc.nextLine();
         String d = sc.nextLine();
-        StringBuilder sb = new StringBuilder(d + b + c + a);
+        StringBuilder sb = new StringBuilder(d + " " + b + " " + c + " " + a);
         System.out.println(sb);
 
     }
