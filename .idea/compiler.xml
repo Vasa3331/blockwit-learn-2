@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="blockwit-learn-1" />
+        <module name="blockwit-learn-2" />
       </profile>
     </annotationProcessing>
   </component>
