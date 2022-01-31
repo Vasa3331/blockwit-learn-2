@@ -9,7 +9,7 @@ public class tu1 {
         }
     }
     public static void main(String[] args) {
-        Helper mass = new Helper();
+        tu1 mass = new tu1();
         mass.printIntArray();
     }
 }
