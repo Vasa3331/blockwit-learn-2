@@ -1,25 +1,10 @@
 package com.blockwit.learn2.vasa3331;
 
 public class TaskS7T1 {
-    public static int [] a = {-9, 1, 5, 6, 8};
-    public static int [] b = {7, 3, 1};
-    public static int [] res;
-
-    public void printIntArray() {
-        for (int i = 0; i < a.length; i++) {
-            System.out.print(a[i] + " ");
-        }
-        System.out.println(" - Массив a");
-        for (int i = 0; i < b.length; i++) {
-            System.out.print(b[i] + " ");
-        }
-        System.out.println(" - Массив b");
-        for (int i = 0; i < res.length; i++) {
-            System.out.print(res[i] + " ");
-        }
-        System.out.println(" - Массив res");
-    }
     public static void main(String[] args) {
+        int [] a = {-9, 1, 5, 6, 8};
+        int [] b = {7, 3, 1};
+        int [] res;
         res = new int[a.length + b.length];
         for (int i = 0; i < a.length; i++) {
             res[i] = a[i];
@@ -27,7 +12,14 @@ public class TaskS7T1 {
         for (int i = a.length; i < res.length; i++) {
             res[i] = b[i - a.length];
         }
-        TaskS7T1 mass = new TaskS7T1();
-        mass.printIntArray();
+        Helper mass1 = new Helper();
+        mass1.printIntArray(a);
+        System.out.println(" - Массив a");
+        Helper mass2 = new Helper();
+        mass2.printIntArray(b);
+        System.out.println(" - Массив b");
+        Helper mass3 = new Helper();
+        mass3.printIntArray(res);
+        System.out.println(" - Массив res");
     }
 }
