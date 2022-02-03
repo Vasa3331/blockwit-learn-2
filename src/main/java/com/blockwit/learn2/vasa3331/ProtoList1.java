@@ -1,7 +1,7 @@
 package com.blockwit.learn2.vasa3331;
 
 public class ProtoList1 {
-    int[] array;
+    private int[] array;
 
     public ProtoList1(int[] array) {
         this.array = array;
