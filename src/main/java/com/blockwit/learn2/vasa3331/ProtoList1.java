@@ -1,11 +1,11 @@
 package com.blockwit.learn2.vasa3331;
 
 public class ProtoList1 {
-    private int[] array;
+    int[] array;
 
-    public int[] create(int size) {
-        int[] array = new int[size];
-        return array;
+    public void create(int size) {
+        int [] array = new int[size];
+        this.array = array;
     }
     public int getSize(int[] array) {
         return array.length;
