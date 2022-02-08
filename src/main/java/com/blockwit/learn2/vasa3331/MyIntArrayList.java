@@ -12,7 +12,6 @@ public class MyIntArrayList {
         return count;
     }
     public void clear() {
-        elements = new int[0];
         count = 0;
     }
     public int get(int i) {

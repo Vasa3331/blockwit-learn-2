@@ -7,11 +7,8 @@ public class Test {
             list.add(i);
         }
         System.out.println(list.size());
-        System.out.println(list.get(555));
+        Helper helper = new Helper();
+        helper.printInList(list.elements);
         list.clear();
-        System.out.println(list.size());
-        list.add(444);
-        list.add(333);
-        System.out.println(list.get(1));
     }
 }
