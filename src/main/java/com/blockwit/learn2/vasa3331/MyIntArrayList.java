@@ -17,7 +17,7 @@ public class MyIntArrayList {
     public int get(int i) {
         return elements[i];
     }
-    public void add(int newValue) {
+    public int add(int newValue) {
         if (count == elements.length) {
             int[] newElements = new int[elements.length + 1];
             for (int i = 0; i < elements.length; i++) {
@@ -29,5 +29,6 @@ public class MyIntArrayList {
             elements[count - 1] = newValue;
         }
         count++;
+        return count - 1;
     }
 }

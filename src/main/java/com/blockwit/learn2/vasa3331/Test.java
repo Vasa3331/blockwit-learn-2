@@ -16,6 +16,13 @@ public class Test {
         System.out.println(list.size());
         Helper helper = new Helper();
         helper.printInList(list.elements);
-        list.clear();
+        System.out.println();
+        int b = list.add(5);
+        helper.printInList(list.elements);
+        System.out.println(b);
+        list.add(5);
+        int c = list.add(6);
+        helper.printInList(list.elements);
+        System.out.println(c);
     }
 }
