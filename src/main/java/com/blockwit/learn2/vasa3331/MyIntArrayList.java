@@ -1,6 +1,6 @@
 package com.blockwit.learn2.vasa3331;
 
-public class MyIntArrayList {
+public class MyIntArrayList implements IMyIntArrayList {
     int[] elements;
     int count;
 
