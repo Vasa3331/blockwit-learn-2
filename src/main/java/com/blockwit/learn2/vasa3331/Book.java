@@ -1,18 +1,23 @@
 package com.blockwit.learn2.vasa3331;
 
-public class Book implements IBook{
+public class Book {
 
-    String name;
+    private String name;
 
-    int ISBN;
+    private int ISBN;
 
-    public Book(String name) {
+    public Book(String name, int ISBN) {
         this.name = name;
+        this.ISBN = ISBN;
     }
 
 
     public String getName(){
         return name;
+    }
+
+    public int getISBN() {
+        return ISBN;
     }
 
 }
